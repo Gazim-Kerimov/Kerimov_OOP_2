@@ -10,6 +10,7 @@ public class Main {
         listOfAnimals.add(barsik);
         listOfAnimals.add(sharkhan);
         listOfAnimals.add(sharik);
+        john.walk();
         for(int i = 0; i < listOfAnimals.size(); i++){
             if(listOfAnimals.get(i) instanceof DomesticAnimal){
                 ((DomesticAnimal) listOfAnimals.get(i)).setOwner(john);
